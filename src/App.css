@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aqua;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container{
+    background-color: rgba(219, 195, 195, 0.219);
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.buttons{
+    border: 1px double grey;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.grid{
+    border: 1px double grey;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.paperComponent{
+    border: 1px double grey;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.bar-chart{
+    background-color: wheat;
+    padding: 10px;
+}
+
+.pie{
+    background-color: wheat;
+    padding: 10px;
+}
